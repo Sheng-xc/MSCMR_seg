@@ -2,7 +2,7 @@
 This is a PyTorch implementation of the MICCAI paper by Qian Yue et al. on LGE-CMR segmentation. UNet, SRNN, SCN and SRSCN are performed for the segmentation task.
 
 ## Introduction
-Automatic cardiac segmentation from LGE-CMR is of great clinical value. In [1], Yue et al. proposed SRSCN, a U-Net based method incorporating  additional modules for shape reconstruction and spatial constraint. The pipeline from their paper summarizes the model. For more details, please refer to [1].
+Automatic cardiac segmentation from LGE-CMR is of great clinical value. In [3], Yue et al. proposed SRSCN, a U-Net based method incorporating  additional modules for shape reconstruction and spatial constraint. The pipeline from their paper summarizes the model. For more details, please refer to [3].
 ![img.png](img.png)
 
 ## Training
