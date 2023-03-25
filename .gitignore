@@ -1,0 +1,10 @@
+/requirements
+/logs/
+/test/
+/runs/
+.idea
+img.png
+
+
+.DS_Store
+.DS_Store?
