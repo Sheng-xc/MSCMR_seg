@@ -11,7 +11,7 @@ In this project, we trained the basic UNet, SRNN, SCN and SRSCN on  [MSCMR](http
 ```
 python main.py --path "data_path" --batch_size 8 --dim 240 --lr 1e-4 --threshold 0.65 --end_epoch 30
 ```
-The deta path is organized as follows:
+The data path is organized as follows:
 ```
 data/
   -- image files & gt files
@@ -22,7 +22,7 @@ data/
 Pretrained models with bathsize = 8 and epoch = 30 are stored in `checkpoints/model_name`. 
 
 ## Prediction
-To use the models for segmentation, please prepare `test.txt` in the data path as descibed above and type:
+To use the models for segmentation, please prepare `test.txt` in the data path as described above and type:
 
 ```
 python predict.py --load_path checkpoints/"model name" --predict_mode multiple --threshold 0.6 --dim 240
